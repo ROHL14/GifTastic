@@ -1,0 +1,47 @@
+body{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#add-new-btn-area{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    border: solid;
+    border-color: cyan;
+}
+
+#add-txt{
+    margin-top: 5%;
+}
+
+#submit{
+    margin-bottom: 5%;
+}
+
+.gif-style{
+    max-width: 300px;
+    max-height: 300px; 
+    min-width: 150px;
+}
+
+@media (min-width: 400px) {  
+    .gif-style{
+        max-width: 100px;
+        max-height: 100px; 
+    }
+}
+
+@media (min-width: 700px) {  
+    .gif-style{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+@media (min-width: 900px) {  
+    .gif-style{
+        max-width: 350px;
+        max-height: 350px; 
+    }
+}
